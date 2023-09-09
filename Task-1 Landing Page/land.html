@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+     </head>
+      <body>
+
+        <header class="container header">
+          <nav class="nav">
+           <div class="logo">
+             <h2>𝙃𝙖𝙧𝙨𝙝𝙀𝙣𝙩𝙚𝙧𝙥𝙧𝙞𝙨𝙚𝙨</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">account</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">about</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span>HarshEnterprises.</span>
+              <br />
+              Develop anything.
+            </h1>
+            <p class="info-text">
+              Build a beautiful, modern website with flexible components built
+              from scratch.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                view all pages <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/team.svg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Built for developers </span>
+              <p>
+                HarshEnterprises is the home of information technology and new technology.
+                so anyone wants to learn someting new , we are happy to have you. with HarshEnterprises
+                you can work on your skills. we can assure you that ;)
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Designed to be modern</span>
+              <p>
+                We are in development phase. still company has 
+                brilliant and tallented youngstrs ,who always ready to 
+                learn anything. Thats why we are consantly devloping with new technology.
+                we used to designed our infrasturucture that way. so thats why we are designed to be modern.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Documentation for everything</span>
+              <p>
+                Established just now AUG 16 9:28 am in my head. Harsh Enterprises is a leading supplier of
+                Information Technology, Software, and Telecom products.
+                Our corporate customers belong to various industries such as
+                Banking, Education, Health, Media, Entert
+            </div>
+          </div>
+        </div
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
